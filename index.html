@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+</head>
+<body class="flex flex-col min-h-screen bg-gray-900 text-white">
+    <header class="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-900/95 backdrop-blur supports-[backdrop-filter]:bg-gray-900/60">
+        <div class="flex h-14 items-center px-6">
+            <div class="flex items-center gap-2 font-semibold">
+                <i data-lucide="bot" class="h-5 w-5"></i>
+                <span class="text-xl">Eri</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex flex-col flex-1 items-center w-full">
+        <div id="chat-messages" class="flex-1 w-full max-w-2xl p-4 space-y-4">
+            <!-- Messages will be inserted here -->
+        </div>
+
+        <div class="sticky bottom-0 w-full border-t border-gray-800 bg-gray-900 p-4">
+            <div class="mx-auto flex max-w-2xl items-center gap-2">
+                <input id="user-input" type="text" placeholder="Ask me anything..." 
+                    class="flex-1 bg-gray-800 text-white placeholder-gray-400 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button id="send-button" class="bg-blue-500 hover:bg-blue-600 text-white rounded-md p-2">
+                    <i data-lucide="send" class="h-4 w-4"></i>
+                    <span class="sr-only">Send message</span>
+                </button>
+                <button id="clear-button" class="bg-gray-800 hover:bg-gray-700 text-white rounded-md p-2 border border-gray-700">
+                    <i data-lucide="trash-2" class="h-4 w-4"></i>
+                    <span class="sr-only">Clear chat</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+
+        const chatMessages = document.getElementById('chat-messages');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+        const clearButton = document.getElementById('clear-button');
+
+        let messages = [];
+
+        function renderMessages() {
+            chatMessages.innerHTML = '';
+            messages.forEach((message) => {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `flex items-start gap-3 ${
+                    message.role === 'user' ? 'justify-end' : 'justify-start'
+                }`;
+                
+                if (message.role === 'assistant') {
+                    messageDiv.innerHTML = `
+                        <div class="flex h-8 w-8 shrink-0 select-none items-center justify-center rounded-md border border-gray-700 bg-gray-800">
+                            <i data-lucide="bot" class="h-4 w-4"></i>
+                        </div>
+                        <div class="rounded-lg px-4 py-2 max-w-[80%] bg-gray-800">
+                            ${message.content}
+                        </div>
+                    `;
+                } else {
+                    messageDiv.innerHTML = `
+                        <div class="rounded-lg px-4 py-2 max-w-[80%] bg-blue-500">
+                            ${message.content}
+                        </div>
+                        <div class="flex h-8 w-8 shrink-0 select-none items-center justify-center rounded-md border border-gray-700 bg-gray-800 text-sm">
+                            <i data-lucide="user" class="h-4 w-4"></i>
+                        </div>
+                    `;
+                }
+                
+                chatMessages.appendChild(messageDiv);
+            });
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+            lucide.createIcons();
+        }
+
+        async function sendMessage() {
+            const userMessage = userInput.value.trim();
+            if (userMessage) {
+                messages.push({ role: 'user', content: userMessage });
+                renderMessages();
+                userInput.value = '';
+
+                try {
+                    const response = await fetch('/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ message: userMessage })
+                    });
+
+                    const result = await response.json();
+                    if (result.response) {
+                        messages.push({ role: 'assistant', content: result.response });
+                    } else {
+                        messages.push({ role: 'assistant', content: "An error occurred. Please try again." });
+                    }
+                } catch (error) {
+                    messages.push({ role: 'assistant', content: "An error occurred. Please try again." });
+                }
+                renderMessages();
+            }
+        }
+
+        sendButton.addEventListener('click', sendMessage);
+        userInput.addEventListener("keypress", (e) => {
+            if (e.key === "Enter") {
+                sendMessage();
+            }
+        });
+
+        clearButton.addEventListener('click', () => {
+            messages = [];
+            renderMessages();
+        });
+    </script>
+</body>
+</html>
